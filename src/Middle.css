@@ -1,0 +1,260 @@
+.middle{
+  width:54.4%;
+  margin-left: 18.1%; 
+}
+
+/* .middle1 {
+     width:54.4%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;    
+    padding: 10px;
+    margin-left: 18.1%; 
+    overflow-x:visible; 
+    overflow: hidden; 
+   height: 105px;
+    
+  } */
+ 
+  .story {
+    display: flex;
+     
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 53px;
+    padding-top: 25px;
+    overflow-x: scroll;
+  scrollbar-width: none;
+   
+    /* overflow-x:scroll; 
+    overflow: hidden ;  */
+   height: 105px;
+  }
+  .add{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(9, 1, 88);
+position: relative;
+ margin-top: -20px;
+ margin-left: 47px;
+ color: white;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ font-size:xx-large;
+ cursor: pointer;
+
+}
+.story2{
+ margin-right: 10px;
+
+}
+  
+  .storyimg {
+    
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    background-image: linear-gradient(
+      rgba(251, 189, 76, 255),
+      rgba(252, 126, 5, 255),
+      rgba(218, 126, 5, 255),
+      rgba(253, 72, 43, 255),
+      rgba(253, 3, 104, 255),
+      rgba(227, 3, 141, 255),
+      rgba(210, 1, 190, 255),
+      rgba(242, 0, 129, 255),
+      rgba(254, 36, 72, 255),
+      rgba(251, 98, 20, 255),
+      rgba(249, 134, 19, 255),
+      rgba(252, 171, 55, 255)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .add input{
+    display: hidden;
+  }
+  
+  .storyimg:visited {
+    background-image: none;
+  }
+  
+  .storyimg img {
+    width:55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+    
+  }
+  
+  .inid p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+  margin-left: 11px;
+  /* box-shadow: 
+  inset -10px -10px 20px rgba(255, 255, 255, 0.6),
+  inset 10px 10px 20px rgba(0, 0, 0, 0.2),
+  5px 5px 15px rgba(0, 0, 0, 0.3); */
+
+  }
+  
+
+/* ------------------------------------------------------------------------------  */
+
+.video{
+    
+    padding: 28px 0px 40px 130px;
+ 
+
+
+width: 69%;
+
+}
+.videotop{
+    height: 44.5px;
+    width:74vh;
+     
+    display: flex;
+}
+
+.ime{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+     background-color: blueviolet; 
+background-image:linear-gradient( rgba(251, 189, 76,255),rgba(252,126,5,255) ,rgba(218,126,5,255),rgba(253,72,43,255),rgba(253,3,104,255),rgba(227,3,141,255),rgba(210,1,190,255),rgba(242,0,129,255),rgba(254,36,72,255),rgba(251,98,20,255),rgba(249,134,19,255),rgba(252,171,55,255));
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 5.5px;
+
+
+}
+
+.videotop img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 3px;
+    justify-content: space-between;
+    
+}
+
+.instid {
+    margin: 10px;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.instid h{
+    color: rgb(112, 108, 108);
+}
+
+.videocon{
+ width:74vh;
+  height: 91vh;
+display: grid;
+    place-items: center;
+  
+}
+.videocon img{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    position: absolute ;
+    width:74vh;
+    
+}
+.videocon video{
+  width:74vh;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  position: absolute ;
+  
+ 
+  
+}
+
+
+.videocon video{
+    width:74vh;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    position: absolute ;
+    
+   
+    
+}
+.videobottum{
+    height: 45px;
+    width:74vh;
+   
+    display: flex;
+ justify-content: space-between;
+
+}
+
+.videobottum img{
+
+    width: 23px;
+    height: 23px;
+}
+.bi1{
+    display: flex;
+  gap: 18px;
+ 
+}
+.video p{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: smaller;
+
+}
+.video v{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: gray;
+  
+  }
+.navbarm{
+  display: none;
+}
+
+@media (max-width: 768px) {
+.navbarm{
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+width: 95%;
+    position:fixed;
+  background-color: white;
+  align-items: center;
+  padding: 1vh;
+  
+}
+.middle{
+ 
+ 
+  width: 90%;
+  justify-content: center;
+  margin: 0;
+}
+.video{
+  margin:0;
+  padding: 0;
+  margin-left: 30px;
+
+}
+.videobottum{
+ margin-left: 20px;
+}
+
+}
+
+ 

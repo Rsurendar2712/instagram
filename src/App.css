@@ -1,0 +1,82 @@
+.Home{
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    position: absolute;
+   width: 99%;
+   margin: 0;
+   padding: 0;
+ 
+}
+
+
+  
+.leftbar{
+ margin-top: 35px;
+ margin-left: 33px;
+width: 27.8%;
+height: 100vh;
+
+
+ }
+
+
+.prof{
+    display:flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  gap: 10px;
+  font-size:small;
+}
+.profimg img{
+    width: 43px;
+    height: 43px;
+    border-radius:50%;
+}
+.nam{
+    margin: 5px;
+    display: grid;
+    gap: 3px;
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.accchan {
+    color: rgb(123, 150, 238);
+    font-weight: bold;
+    margin-left: auto;
+    cursor: pointer;
+    white-space: nowrap; 
+}
+.nexpof{
+    display: flex;
+    gap:120px;
+    margin-top: 23px;
+ 
+}
+.nexpofc{
+    font-size: 15px;
+    color: rgb(122, 118, 118);
+    font-weight: 500;
+}
+.nexpofsc{
+    font-size: small;
+   font-weight: 535;
+}
+.sugge{
+   display: grid;
+   gap: 15px;
+   margin-top: 14px;
+}  
+
+
+
+
+/* App.css */
+@media (max-width: 769px) {
+    .leftbar,.Rightbar
+  { display: none;
+    }
+    .middle{
+        width:100%;
+       margin: 0;
+    }
+  }
+  
