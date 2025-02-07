@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/instagram/static/css/main.7377caa9.css",
+    "main.js": "/instagram/static/js/main.6e09a935.js",
+    "static/media/reeaal.mp4": "/instagram/static/media/reeaal.c185d480f3f3d2bd1915.mp4",
+    "static/media/fa-solid-900.ttf": "/instagram/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/fa-brands-400.ttf": "/instagram/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/instagram/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/instagram_logo.png": "/instagram/static/media/instagram_logo.12fdac8cd2434872936a.png",
+    "static/media/Linked-in.jpg": "/instagram/static/media/Linked-in.47e0579ba2a9809f2fcd.jpg",
+    "static/media/fa-brands-400.woff2": "/instagram/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/TCS.png": "/instagram/static/media/TCS.3b11b059975ab0ec786c.png",
+    "static/media/fa-regular-400.ttf": "/instagram/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/gethub.png": "/instagram/static/media/gethub.10e867d40ed8969d066a.png",
+    "static/media/logo1.png": "/instagram/static/media/logo1.a1f3746002e162ea9129.png",
+    "static/media/fa-regular-400.woff2": "/instagram/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/whastapp.jpeg": "/instagram/static/media/whastapp.c383cf22c4fc565caea8.jpeg",
+    "static/media/profile_pic.jpeg": "/instagram/static/media/profile_pic.7b07e7d688a865d96e14.jpeg",
+    "static/media/messenger.png": "/instagram/static/media/messenger.ce9b3681a8f034db7169.png",
+    "static/media/heart.png": "/instagram/static/media/heart.c412cbaead4744166c20.png",
+    "static/media/cal_proj.png": "/instagram/static/media/cal_proj.f9e1d691e89dbe9d2c05.png",
+    "static/media/social.png": "/instagram/static/media/social.de12a62bbd0f2b5b949c.png",
+    "static/media/mail.jpeg": "/instagram/static/media/mail.1e6fae72907df27a0934.jpeg",
+    "static/media/chat.png": "/instagram/static/media/chat.188a5c21d9af468958a9.png",
+    "static/media/phone.jpeg": "/instagram/static/media/phone.0e000a67d567f69b2721.jpeg",
+    "static/media/profile.jpg": "/instagram/static/media/profile.8a90a7d4766cf33798b1.jpg",
+    "static/media/video.png": "/instagram/static/media/video.f35d3738a66b11daa935.png",
+    "static/media/verify.png": "/instagram/static/media/verify.b8bc1fd1c42eb60c61c8.png",
+    "static/media/search.png": "/instagram/static/media/search.a27091ef0c45faf8a66e.png",
+    "static/media/heart1.png": "/instagram/static/media/heart1.556c78a5a9b89d6b2eeb.png",
+    "static/media/fa-v4compatibility.ttf": "/instagram/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/instagram/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/instagram/index.html",
+    "main.7377caa9.css.map": "/instagram/static/css/main.7377caa9.css.map",
+    "main.6e09a935.js.map": "/instagram/static/js/main.6e09a935.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7377caa9.css",
+    "static/js/main.6e09a935.js"
+  ]
+}
