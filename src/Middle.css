@@ -231,9 +231,11 @@ font-size: smaller;
   display: flex;
   justify-content: space-between;
   bottom: 0;
-width: 95%;
-    position:fixed;
+width:auto;
+    position:sticky;
   background-color: white;
+  background: white;
+
   align-items: center;
   padding: 1vh;
   
@@ -241,18 +243,41 @@ width: 95%;
 .middle{
  
  
-  width: 90%;
+  width: 100%;
   justify-content: center;
   margin: 0;
 }
 .video{
+ width: auto;
   margin:0;
   padding: 0;
-  margin-left: 30px;
+  margin-left: 0px;
 
 }
+.videocon{
+  width:54vh;
+   height: 91vh;
+ display: grid;
+     place-items: center;
+   
+ }
+ .videocon img{
+  width:78vh;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  position: absolute ;
+
+  margin-left: 10px; 
+ 
+  }
+ .story{
+  width: 100%;
+ padding-left: 5px;
+
+ }
 .videobottum{
- margin-left: 20px;
+ margin-left: 15px;
 }
 
 }
