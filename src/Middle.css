@@ -117,7 +117,7 @@ width: 69%;
 }
 .videotop{
     height: 44.5px;
-    width:74vh;
+    /* width:74vh; */
      
     display: flex;
 }
@@ -156,7 +156,7 @@ margin: 5.5px;
 }
 
 .videocon{
- width:74vh;
+ /* width:74vh; */
   height: 91vh;
 display: grid;
     place-items: center;
@@ -171,7 +171,7 @@ display: grid;
     
 }
 .videocon video{
-  width:74vh;
+  /* width:74vh; */
   align-items: center;
   justify-content: center;
   display: grid;
@@ -182,19 +182,10 @@ display: grid;
 }
 
 
-.videocon video{
-    width:74vh;
-    align-items: center;
-    justify-content: center;
-    display: grid;
-    position: absolute ;
-    
-   
-    
-}
+
 .videobottum{
     height: 45px;
-    width:74vh;
+    /* width:74vh; */
    
     display: flex;
  justify-content: space-between;
@@ -252,11 +243,10 @@ width:auto;
   margin:0;
   padding: 0;
   margin-left: 0px;
-  background-color:red;
 
 }
 .videocon{
-  width:34vh;
+  width:54vh;
    height: 91vh;
  display: grid;
      place-items: center;
