@@ -252,10 +252,11 @@ width:auto;
   margin:0;
   padding: 0;
   margin-left: 0px;
+  background-color:red;
 
 }
 .videocon{
-  width:54vh;
+  width:34vh;
    height: 91vh;
  display: grid;
      place-items: center;
