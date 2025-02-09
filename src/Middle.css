@@ -239,21 +239,21 @@ width:auto;
   margin: 0;
 }
 .video{
- width: auto;
+ width:100%;
   margin:0;
   padding: 0;
   margin-left: 0px;
 
 }
 .videocon{
-  width:54vh;
+  width:100%;
    height: 91vh;
  display: grid;
      place-items: center;
    
  }
  .videocon img{
-  width:48vh;
+  width:100%;
   align-items: center;
   justify-content: center;
   display: grid;
