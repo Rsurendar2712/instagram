@@ -30,7 +30,7 @@ export const Signin = () => {
 
     const user = users.find(
       (u) => u.username === username   && u.password === password 
-    ) || (username === "anu" && password === "2704")||username === "meena" && password === "2718");
+    ) || (username === "anu" && password === "2704")||username === "meena" && password === "1804");
     
 
     if (user) {
