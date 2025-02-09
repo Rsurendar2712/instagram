@@ -167,7 +167,7 @@ display: grid;
     justify-content: center;
     display: grid;
     position: absolute ;
-    width:34vh;
+    width:74vh;
     
 }
 .videocon video{
@@ -253,7 +253,7 @@ width:auto;
    
  }
  .videocon img{
-  width:78vh;
+  width:58vh;
   align-items: center;
   justify-content: center;
   display: grid;
