@@ -25,25 +25,25 @@ import {reels} from './Reels'
 
 
 
-     const hi=(id)=>{}
-    //   switch (id) {
-    //    case 1:
-    //   window.open('http://www.linkedin.com/in/surendar-r-50099721a');
-    //     break;
-    //     case 2:
-    //    window.open('https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-menu-homepage');
-    //     break;
-    //     case 3:
-    //    window.open('https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-menu-homepage');
-    //     break;
-    //     case 4:
-    //    window.open('https://github.com/Rsurendar2712');
-    //     break;
+     const hi=(id)=>{
+      switch (id) {
+       case 1:
+      window.open('http://www.linkedin.com/in/surendar-r-50099721a');
+        break;
+        case 2:
+       window.open('https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-menu-homepage');
+        break;
+        case 3:
+       window.open('https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-menu-homepage');
+        break;
+        case 4:
+       window.open('https://github.com/Rsurendar2712');
+        break;
 
-    //     default:
-    //      break;
-    //   }
-    //    }
+        default:
+         break;
+      }
+       }
 
   
 

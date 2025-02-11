@@ -8,7 +8,7 @@ import heart from './assets/heart.png'
 import messenger from './assets/messenger.png'
 import search from './assets/search.png'
 import menu from './assets/menu.png'
-import profile from "./assets/profile.jpg";
+import profile from "./assets/eagle.jpg";
 import { NavLink } from 'react-router-dom';
 import  './Rightbar.css'
 export  const Rightbar = () => {

@@ -11,8 +11,9 @@ import naukri from './assets/naukri.png';
 import indeed from './assets/indeed.png';
 import Gethub  from './assets/gethub.png';
 import cal from './assets/cal_proj.png'
-
-
+import video from './assets/reeaal.mp4'
+import shin from  './assets/shin.jpg'
+ import eagle from './assets/eagle.jpg'
 
 
 export const reels=()=>{
@@ -21,7 +22,7 @@ export const reels=()=>{
           "id": 0,
           "title": "myself",
           "story": reeaal,
-          "vid": 'https://youtube.com/shorts/AIeTi-5c5EU?si=9bQ1C4zchtTpSCVf',
+          "vid": shin,
           "img": search,
           "username": "surendar",
         "password":"123",
@@ -32,7 +33,7 @@ export const reels=()=>{
           "bookd":bookmark1,
           "isbook":true,
           "command":"likedby",
-          "type":"video"
+          "type":"image"
           },
       
       
@@ -40,7 +41,7 @@ export const reels=()=>{
       "id": 1,
       "title": "Linked-in",
       "story": Linkedin,
-      "vid": search,
+      "vid": video,
       "img": null,
       "username": "surendar",
     "password":"123",
