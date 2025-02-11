@@ -14,14 +14,20 @@ import { Practice } from './Practice';
 
  const App= () => { 
   return (
-<Routes>
-      <Route path="/" element={<Signin />} />
-      <Route path="/signin" element={<Signin/>} />
-      <Route path="/Login" element={<Login />} />
-      <Route path="/Homepage" element={<Homepage />} />
-      <Route path="/profile" element={<Profile />} />
-    </Routes>
-)
-};
-export default App;
+       <div>
+            <Routes>
+  <Route path="/Login" element={<Login />} />
+  <Route path="/" element={<Signin />} />
+  <Route path="/Login" element={<Login />} />
+  <Route path="/homepage" element={<Homepage />} />
+  <Route path="/profile" element={<Profile />} />
+</Routes>
 
+
+
+
+            </div>
+  )
+}
+
+export default App;

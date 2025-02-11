@@ -26,7 +26,27 @@ import {reels} from './Reels'
 
 
      const hi=(id)=>{
+<<<<<<< HEAD
       alert("hi");
+=======
+       switch (id) {
+        case 1:
+      window.open('http://www.linkedin.com/in/surendar-r-50099721a');
+        break;
+        case 2:
+       window.open('https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-menu-homepage');
+        break;
+        case 3:
+       window.open('https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-menu-homepage');
+        break;
+        case 4:
+       window.open('https://github.com/Rsurendar2712');
+        break;
+
+        default:
+         break;
+      }
+>>>>>>> eaf29eb5a62bb93ab4cc934e0b00786b867430a5
        }
 
   
