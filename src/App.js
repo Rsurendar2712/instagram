@@ -12,24 +12,16 @@ import Pal from './P1';
 import { Practice } from './Practice';
 
 
-
-const App = () => { 
+ const App= () => { 
   return (
-       <div>
-            <Routes>
-  <Route path="/Login" element={<Login />} />
-  <Route path="/" element={<Signin />} />
-    <Route path="/signin" element={<Signin />} />
-  <Route path="/Login" element={<Login />} />
-  <Route path="/homepage" element={<Homepage />} />
-  <Route path="/profile" element={<Profile />} />
-</Routes>
-
-
-
-
-            </div>
-  )
-}
-
+<Routes>
+      <Route path="/" element={<Signin />} />
+      <Route path="/signin" element={<Signin/>} />
+      <Route path="/Login" element={<Login />} />
+      <Route path="/Homepage" element={<Homepage />} />
+      <Route path="/profile" element={<Profile />} />
+    </Routes>
+)
+};
 export default App;
+

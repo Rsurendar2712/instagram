@@ -8,27 +8,43 @@ import plus from'./assets/add.png';
 import video from './assets/video.png'
 import mail from "./assets/mail.jpeg"
 import phone from "./assets/phone.jpeg"
-import whatsapp from "./assets/whastapp.jpeg"
+import whatapp from "./assets/whastapp.jpeg"
 import home1 from './assets/home1.png'
+import Linkedin from './assets/Linked-in.jpg';
+import naukri from './assets/naukri.png';
+import indeed from './assets/indeed.png';
+import Gethub  from './assets/gethub.png';
 
   export const P1 = () => {
 
-const  hi =(a)=>{}
-//   switch (a) {
-//     case 1:
-//       window.location.href='tel:7397434270';
-//       break;
-//       case 2:
-//         window.location.href = "mailto:rsurendar116@gmail.com";
-//       break;
-//       case 3:
-//         window.open("https://wa.me/7397434270", "_blank", "noopener,noreferrer");
-//       break;
+const  hi =(a)=>{
+  switch (a) {
+    case 1:
+      window.location.href='tel:7397434270';
+      break;
+      case 2:
+        window.location.href = "mailto:rsurendar116@gmail.com";
+      break;
+      case 3:
+        window.open("https://wa.me/7397434270", "_blank", "noopener,noreferrer");
+      break;
+      case 4:
+        window.open('http://www.linkedin.com/in/surendar-r-50099721a');
+          break;
+          case 5:
+         window.open('https://www.naukri.com/mnj/fullProfile?fdb');
+          break;
+          case 6:
+         window.open('https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-menu-homepage');
+          break;
+          case 7:
+         window.open('https://github.com/Rsurendar2712');
+          break;
   
-//     default:
-//       break;
-//   }
-// }
+    default:
+      break;
+  }
+}
 
 
 
@@ -61,8 +77,12 @@ const  hi =(a)=>{}
         
         <div className="highlight" onClick={()=>hi(1)} ><img src={phone}  /></div>
         <div className="highlight"  onClick={()=>hi(2)}  ><img src={mail}/></div>
-        <div className="highlight" onClick={()=>hi(3)} ><img src={whatsapp}/></div>
-        <div className="highlight1">+</div>
+        <div className="highlight"  onClick={()=>hi(3)}  ><img src={whatapp}/></div>
+        <div className="highlight" onClick={()=>hi(4)} ><img src={Linkedin}/></div>
+        <div className="highlight" onClick={()=>hi(5)} ><img src={naukri }/></div>
+        <div className="highlight" onClick={()=>hi(6)} ><img src={indeed}/></div>
+        <div className="highlight" onClick={()=>hi(7)} ><img src={Gethub}/></div>
+      
       </div>
 
       {/* Posts Section */}

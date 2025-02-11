@@ -1,6 +1,4 @@
-{
-  "homepage": "https://Rsurendar2712.github.io/instagram",
-  "name": "myapp",
+{ "name": "myapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

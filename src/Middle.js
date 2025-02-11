@@ -26,23 +26,7 @@ import {reels} from './Reels'
 
 
      const hi=(id)=>{
-      switch (id) {
-       case 1:
-      window.open('http://www.linkedin.com/in/surendar-r-50099721a');
-        break;
-        case 2:
-       window.open('https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-menu-homepage');
-        break;
-        case 3:
-       window.open('https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-menu-homepage');
-        break;
-        case 4:
-       window.open('https://github.com/Rsurendar2712');
-        break;
-
-        default:
-         break;
-      }
+      alert("hi");
        }
 
   
@@ -68,6 +52,7 @@ const bookmarkimage = (id) => {
 };
   return(
     <div className='middle'>
+    
             <div className='story'>
             {like.filter((value)=>value.id===0).map((value,id)=>(   
                <div className='story1 'id='own'>
@@ -90,8 +75,8 @@ const bookmarkimage = (id) => {
   <p>{value.title.length > 10 ? `${value.title.slice(0, 10)}.` : value.title}</p>
 </div>
                   
+                       </div>
                        
-                </div>
 
                        ) )};
           </div>
@@ -104,11 +89,11 @@ const bookmarkimage = (id) => {
                                     <img src={value.img}></img>
                                 </div>
                                 <div className='instid' key={id}>           
-                                         {value.title}. <h>1</h>
+                                         {value.page}. <h>1h</h>
                                 </div>
                             </div>
                             <div className='videocon' key={id} onDoubleClick={()=>likeImage(value.id)}>
-{value.type ==="image" ? <img src={value.vid}/>:<video src={value.vid}/> }
+{value.type ==="image" ? <img src={value.vid}/>:<video  controls src={value.vid}/> }
                             
                            
                             
@@ -140,9 +125,9 @@ const bookmarkimage = (id) => {
 
                                
                    </div>
-                   <p>{value.command}</p>
+                   <p>Liked by<strong>{value.command}</strong></p>
                    <v>View all 70 comments</v><br/>
-                   <v> Add a comment…                   </v>
+                   <v> Add a comment…</v>
             </div>
           ))}
 
