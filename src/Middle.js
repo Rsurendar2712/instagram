@@ -2,7 +2,7 @@ import React from 'react';
 import './Middle.css';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useState } from 'react'
-import profile from "./assets/profile.jpg";
+import profile from "./assets/myprofile.webp";
 import search from './assets/search.png';
 import plus from'./assets/add.png';
 import video from './assets/video.png'
@@ -13,6 +13,7 @@ import home1 from './assets/home1.png'
 // import menu from './assets/menu.png'
 
 import {reels} from './Reels'
+import { Story } from './Story';
 
 
 
@@ -26,27 +27,8 @@ import {reels} from './Reels'
 
 
      const hi=(id)=>{
-<<<<<<< HEAD
-      alert("hi");
-=======
-       switch (id) {
-        case 1:
-      window.open('http://www.linkedin.com/in/surendar-r-50099721a');
-        break;
-        case 2:
-       window.open('https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-menu-homepage');
-        break;
-        case 3:
-       window.open('https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-menu-homepage');
-        break;
-        case 4:
-       window.open('https://github.com/Rsurendar2712');
-        break;
+      navigate('/Story', { state: { id } });
 
-        default:
-         break;
-      }
->>>>>>> eaf29eb5a62bb93ab4cc934e0b00786b867430a5
        }
 
   
@@ -145,9 +127,11 @@ const bookmarkimage = (id) => {
 
                                
                    </div>
+                   <div className='com'>
                    <p>Liked by<strong>{value.command}</strong></p>
                    <v>View all 70 comments</v><br/>
                    <v> Add a comment…</v>
+                   </div>
             </div>
           ))}
 

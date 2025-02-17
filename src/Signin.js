@@ -8,7 +8,6 @@ import bottumicon from './assets/bottumicon1.png';
 import logo from './assets/logo1.png';
 import { NavLink } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-import { reels } from './Reels';
 import { useLocation} from 'react-router-dom';
 
  

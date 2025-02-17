@@ -7,7 +7,7 @@ import { Login } from './Login'
 import  './App.css'
 import { Homepage } from './Homepage';
 import {Profile} from './profile';
-
+import { Story} from './Story';
 import Pal from './P1';
 import { Practice } from './Practice';
 
@@ -16,12 +16,14 @@ import { Practice } from './Practice';
   return (
        <div>
             <Routes>
-  <Route path="/Login" element={<Login />} />
-  <Route path="/" element={<Signin />} />
+  <Route path="/" element={<Login />} />
+  <Route path="/signin" element={<Signin />} />
   <Route path="/Login" element={<Login />} />
   <Route path="/homepage" element={<Homepage />} />
   <Route path="/profile" element={<Profile />} />
+    <Route path="/Story" element={  <Story/>} />
 </Routes>
+
 
 
 

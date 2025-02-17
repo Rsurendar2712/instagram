@@ -8,7 +8,7 @@ import search from './assets/search.png';
 import marval from './assets/marval.jpg'
 import Linkedin from './assets/pic1.jpg';
 import naukri from './assets/pic2.jpg';
-import indeed from './assets/indeed.png';
+import storyimg from './assets/storyimg.jpg';
 import Gethub  from './assets/gethub.png';
 import elon from './assets/Elon Musk on A.i  Sophia the humanoid Robot 🤖 - Inspiring Codes (720p, h264).mp4'
 import video from './assets/nature.mp4'
@@ -16,49 +16,55 @@ import shin from  './assets/shin.jpg'
  import marvel from './assets/marvel.jpg'
 import image1 from './assets/nature_img.jpg'
 import  avenger1 from './assets/avenger1.mp4'
- 
+import myprofile from './assets/myprofile.webp'    
+import infoprof from './assets/infoprof.jpg'
+import storyimg1 from './assets/storyimg1.jpg'
+import storyimg2 from './assets/storyimg2.jpg'
+import shinchan_img from './assets/shinchan img.jpg'
+import nature_pro from './assets/nature_pro.jpg'
+
 export const reels=()=>{
     
     return [ {
           "id": 0,
           "title": "myself",
-          "story":null,
+          "story":myprofile,
           "vid": shin,
-          "img": search,
-         "page":null,
+          "img": shinchan_img ,
+         "page":"Sinchan fan club",
           "like": heart,
           "liked": heart1,
           "isliked": true,
           "book":bookmark,
           "bookd":bookmark1,
           "isbook":true,
-          "command":" anushiya and vijay",
+          "command":" Surendar and anushiya_",
           "type":"image"
           },
       
       
       {
       "id": 1,
-      "title": "Linked-in",
+      "title": "Life is lesson",
       "story": Linkedin,
       "vid": reeaal,
-      "img": null,
-     "page":"shinchan",
+      "img": shinchan_img,
+     "page":"Sinchan fan club",
       "like": heart,
       "liked": heart1,
       "isliked": true,
       "book":bookmark,
       "bookd":bookmark1,
       "isbook":true,
-      "command":" anushiya and vijay",
+      "command":"Karthick and others",
       "type":"video"
       },
       {
         "id": 2,
-        "title": "Naukri",
+        "title": "Unlucky_guy",
         "story": naukri,
         "vid": video,
-        "img": search,
+        "img":nature_pro ,
         "page":"Beatuty of nature",
         "like": heart,
         "liked": heart1,
@@ -66,14 +72,14 @@ export const reels=()=>{
         "book":bookmark,
         "bookd":bookmark1,
         "isbook":true,
-        "command":" anushiya and vijay",
+        "command":" anushiya and millon_doller_girl",
         "type":"video"
         },
         
           {
             "id": 3,
-            "title": "indeed",
-            "story": indeed,
+            "title": "Alon_king",
+            "story": storyimg,
             "vid": marvel,
             "img": marval,
             "page":"Avengers",
@@ -83,15 +89,15 @@ export const reels=()=>{
             "book":bookmark,
             "bookd":bookmark1,
             "isbook":true,
-            "command":" anushiya and vijay",
+            "command":" Vijay_dharshan and surendar_others",
             "type":"image"
             },
             {
               "id": 4,
-              "title": "Github",
-              "story": Gethub,
+              "title": "Aushiya_marry",
+              "story": storyimg2,
               "vid": elon,
-              "img":Gethub,
+              "img":infoprof,
               "page":"Technologys bytes",
               "like": heart,
               "liked": heart1,
@@ -99,14 +105,14 @@ export const reels=()=>{
               "book":bookmark,
               "bookd":bookmark1,
               "isbook":true,
-              "command":" anushiya and vijay",
+              "command":" Surendar_27 and Anu and other",
               "type":"video" 
               },{
                 "id": 5,
                 "title": "alberl",
                 "story": null,
                 "vid": image1,
-                "img": search,
+                "img":nature_pro ,
                 "page":"Beatuty of nature",
                 "like": heart,
                 "liked": heart1,
@@ -114,7 +120,7 @@ export const reels=()=>{
                 "book":bookmark,
                 "bookd":bookmark1,
                 "isbook":true,
-                "command":" karthick and",
+                "command":" karthick and surendar and Anushiya",
                 "type":"image"
                 },
                 {
@@ -134,12 +140,12 @@ export const reels=()=>{
                   "type":"video"
                   },
                   {
-                    "id": 1,
-                    "title": "myself",
-                    "story":null,
-                    "vid": shin,
-                    "img": search,
-                   "page":null,
+                    "id": 7,
+                    "title": "Rougged_girl",
+                    "story":storyimg1,
+                    "vid": null,
+                    "img": marval,
+                    "page":"Avengers",
                     "like": heart,
                     "liked": heart1,
                     "isliked": true,
@@ -147,106 +153,9 @@ export const reels=()=>{
                     "bookd":bookmark1,
                     "isbook":true,
                     "command":" anushiya and vijay",
-                    "type":"image"
-                    },
-                
-                
-                {
-                "id": 1,
-                "title": "Linked-in",
-                "story": Linkedin,
-                "vid": reeaal,
-                "img": null,
-               "page":"shinchan",
-                "like": heart,
-                "liked": heart1,
-                "isliked": true,
-                "book":bookmark,
-                "bookd":bookmark1,
-                "isbook":true,
-                "command":" anushiya and vijay",
-                "type":"video"
-                },
-                {
-                  "id": 2,
-                  "title": "Naukri",
-                  "story": naukri,
-                  "vid": video,
-                  "img": search,
-                  "page":"Beatuty of nature",
-                  "like": heart,
-                  "liked": heart1,
-                  "isliked": true,
-                  "book":bookmark,
-                  "bookd":bookmark1,
-                  "isbook":true,
-                  "command":" anushiya and vijay",
-                  "type":"video"
-                  },
+                    "type":"video"
+                    }
                   
-                    {
-                      "id": 3,
-                      "title": "indeed",
-                      "story": indeed,
-                      "vid": marvel,
-                      "img": marval,
-                      "page":"Avengers",
-                      "like": heart,
-                      "liked": heart1,
-                      "isliked": true,
-                      "book":bookmark,
-                      "bookd":bookmark1,
-                      "isbook":true,
-                      "command":" anushiya and vijay",
-                      "type":"image"
-                      },
-                      {
-                        "id": 4,
-                        "title": "Github",
-                        "story": Gethub,
-                        "vid": elon,
-                        "img":Gethub,
-                        "page":"Technologys bytes",
-                        "like": heart,
-                        "liked": heart1,
-                        "isliked": true,
-                        "book":bookmark,
-                        "bookd":bookmark1,
-                        "isbook":true,
-                        "command":" anushiya and vijay",
-                        "type":"video" 
-                        },{
-                          "id": 5,
-                          "title": "alberl",
-                          "story": null,
-                          "vid": image1,
-                          "img": search,
-                          "page":"Beatuty of nature",
-                          "like": heart,
-                          "liked": heart1,
-                          "isliked": true,
-                          "book":bookmark,
-                          "bookd":bookmark1,
-                          "isbook":true,
-                          "command":" karthick and",
-                          "type":"image"
-                          },
-                          {
-                            "id": 6,
-                            "title": "avenger",
-                            "story": null,
-                            "vid": avenger1,
-                            "img": marval,
-                            "page":"Avengers",
-                            "like": heart,
-                            "liked": heart1,
-                            "isliked": true,
-                            "book":bookmark,
-                            "bookd":bookmark1,
-                            "isbook":true,
-                            "command":" anushiya and vijay",
-                            "type":"video"
-                            }
       ];  
    
 }

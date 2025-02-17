@@ -1,6 +1,6 @@
 import React from 'react'
 import  './App.css'
-import profile from "./assets/profile.jpg";
+import profile from './assets/myprofile.webp' 
 import profile_pic from './assets/profile_pic.jpeg'
 import google from './assets/google.jpeg'
 import insta from './assets/instagram_logo.png'
