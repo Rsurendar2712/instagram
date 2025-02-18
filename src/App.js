@@ -16,7 +16,7 @@ import { Practice } from './Practice';
   return (
        <div>
             <Routes>
-  <Route path="/" element={<Login />} />
+  <Route path="/instagram" element={<Login />} />
   <Route path="/signin" element={<Signin />} />
   <Route path="/Login" element={<Login />} />
   <Route path="/homepage" element={<Homepage />} />
