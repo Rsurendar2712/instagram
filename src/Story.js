@@ -58,14 +58,14 @@ return (
       img.type === "image" ? (
         <img
           key={img.id}
-          src={img.vid}
+          src={img.vid1}
           alt={`Image ${img.id}`}
           onClick={() => hi(img.id, index)}
         />
       ) : (
         <video
           key={img.id}
-          src={img.vid}
+          src={img.vid1}
           onClick={() => hi(img.id, img.index)}
          />
         
@@ -81,14 +81,14 @@ return (
       img.type === "image" ? (
         <img
           key={img.id}
-          src={img.vid}
+          src={img.vid1}
           alt={`Image ${img.id}`}
           onClick={() => hi(img.id, index)}
         />
       ) : (
         <video
           key={img.id}
-          src={img.vid}
+          src={img.vid1}
           onClick={() => hi(img.id, img.index)}
          />
         
@@ -104,14 +104,14 @@ return (
       img.type === "image" ? (
         <img
           key={img.id}
-          src={img.vid}
+          src={img.vid1}
           alt={`Image ${img.id}`}
           onClick={() => hi(img.id, index)}
         />
       ) : (
         <video
           key={img.id}
-          src={img.vid}
+          src={img.vid1}
           onClick={() => hi(img.id, img.index)}
           controls />
         
@@ -127,14 +127,14 @@ return (
       img.type === "image" ? (
         <img
           key={img.id}
-          src={img.vid}
+          src={img.vid1}
           alt={`Image ${img.id}`}
           onClick={() => hi(img.id, index)}
         />
       ) : (
         <video
           key={img.id}
-          src={img.vid}
+          src={img.vid1}
           onClick={() => hi(img.id, img.index)}
           />
         
@@ -150,14 +150,14 @@ return (
       img.type === "image" ? (
         <img
           key={img.id}
-          src={img.vid}
+          src={img.vid1}
           alt={`Image ${img.id}`}
           onClick={() => hi(img.id, index)}
         />
       ) : (
         <video
           key={img.id}
-          src={img.vid}
+          src={img.vid1}
           onClick={() => hi(img.id, img.index)}
          />
         
@@ -186,14 +186,14 @@ return (
         img.type === "image" ? (
           <img
             key={img.id}
-            src={img.vid}
+            src={img.vid1}
             alt={`Image ${img.id}`}
                  
           />
         ) : (
           <video 
     key={img.id} 
-    src={img.vid} 
+    src={img.vid1} 
     muted 
     loop 
     autoPlay

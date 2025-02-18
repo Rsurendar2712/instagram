@@ -95,7 +95,7 @@ const bookmarkimage = (id) => {
                                 </div>
                             </div>
                             <div className='videocon' key={id} onDoubleClick={()=>likeImage(value.id)}>
-{value.type ==="image" ? <img src={value.vid}/>:<video  controls src={value.vid}/> }
+{value.type ==="image" ? <img src={value.vid} />:<video  controls src={value.vid}/> }
                             
                            
                             
