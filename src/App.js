@@ -21,7 +21,7 @@ import { Practice } from './Practice';
   <Route path="/Login" element={<Login />} />
   <Route path="/homepage" element={<Homepage />} />
   <Route path="/profile" element={<Profile />} />
-    <Route path="/Story" element={  <Story/>} />
+  <Route path="/Story" element={  <Story/>} />
 </Routes>
 
 
