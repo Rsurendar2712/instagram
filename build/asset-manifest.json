@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/instagram/static/css/main.38dc9fea.css",
-    "main.js": "/instagram/static/js/main.83b692c5.js",
+    "main.css": "/instagram/static/css/main.f830d93a.css",
+    "main.js": "/instagram/static/js/main.9d6b72dd.js",
     "static/media/spiderman.mp4": "/instagram/static/media/spiderman.1c351e13a93917b9149d.mp4",
     "static/media/avenger1.mp4": "/instagram/static/media/avenger1.b33b3ade31b0f3f92be3.mp4",
     "static/media/rollsroyce.mp4": "/instagram/static/media/rollsroyce.8a52f51b2829301a681f.mp4",
@@ -46,11 +46,11 @@
     "static/media/fa-v4compatibility.ttf": "/instagram/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/instagram/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/instagram/index.html",
-    "main.38dc9fea.css.map": "/instagram/static/css/main.38dc9fea.css.map",
-    "main.83b692c5.js.map": "/instagram/static/js/main.83b692c5.js.map"
+    "main.f830d93a.css.map": "/instagram/static/css/main.f830d93a.css.map",
+    "main.9d6b72dd.js.map": "/instagram/static/js/main.9d6b72dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.38dc9fea.css",
-    "static/js/main.83b692c5.js"
+    "static/css/main.f830d93a.css",
+    "static/js/main.9d6b72dd.js"
   ]
 }

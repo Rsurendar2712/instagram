@@ -10,7 +10,7 @@ import Linkedin from './assets/pic1.jpg';
 import naukri from './assets/pic2.jpg';
 import storyimg from './assets/storyimg.jpg';
 import Gethub  from './assets/gethub.png';
-import elon from './assets/Elon Musk on A.i  Sophia the humanoid Robot 🤖 - Inspiring Codes (720p, h264).mp4'
+import elon from './assets/elon musk.mp4'
 import video from './assets/nature.mp4'
 import shin from  './assets/shin.jpg'
  import marvel from './assets/marvel.jpg'

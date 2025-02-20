@@ -9,6 +9,7 @@ import logo from './assets/logo1.png';
 import { NavLink } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { useLocation} from 'react-router-dom';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
  
 
