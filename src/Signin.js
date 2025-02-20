@@ -100,16 +100,7 @@ export const Signin = () => {
       </div>
       
  
-      {(location.state?.data || [] ).map((va,id)=>(
-         <div key={id}>
-          {va.username}
-          {va.password}
-          {va.id}
-          {va.username}
-         </div>
-      ))
-       
-      }
+    
 
 
     </div>
