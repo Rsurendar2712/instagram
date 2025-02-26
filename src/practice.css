@@ -51,13 +51,32 @@ body {
   ul {
     padding-left: 20px;
   }
+
+.navbarm{
+    display: none;
+  }
+
+
+   
   
   /* Responsiveness */
   @media (max-width: 768px) {
     .resume-container {
       padding: 15px;
     }
-  
+   .navbarm{
+      display: flex;
+      justify-content: space-between;
+      bottom: 0;
+    width:auto;
+        position:sticky;
+      background-color: white;
+      background: white;
+    
+      align-items: center;
+      padding: 1vh;
+      
+    }
     h2 {
       font-size: 18px;
     }
